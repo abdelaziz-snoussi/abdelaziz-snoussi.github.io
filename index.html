@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Abdelaziz Snoussi – Software &amp; AI Engineering Student</title>
+<meta name="description" content="Portfolio of Abdelaziz Snoussi, final-year computer science engineering student at ENSI. Backend, full-stack and applied AI (NLP, OCR, RAG).">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%A7%91%E2%80%8D%F0%9F%92%BB%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#F4F6F8; --surface:#FFFFFF; --ink:#14202B; --muted:#56646F; --line:#D5DCE3; --accent:#1F5FD1;
+  --b1:#9AA4AD; --b2:#3F9B5A; --b3:#1FA3B8; --b4:#3A6FD8;
+  --head:"Bricolage Grotesque","Segoe UI",Helvetica,Arial,sans-serif;
+  --body:"Instrument Sans","Segoe UI",Helvetica,Arial,sans-serif;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){--bg:#0F161D;--surface:#16202A;--ink:#E8EEF3;--muted:#9AA9B6;--line:#273441;--accent:#6EA1FF}
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.0625rem/1.65 var(--body)}
+a{color:var(--accent);text-underline-offset:3px}
+a:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:3px}
+.wrap{max-width:46rem;margin:0 auto;padding:0 1.25rem}
+header{padding:4.5rem 0 2.5rem}
+h1{font:700 clamp(2.6rem,9vw,4.4rem)/1 var(--head);letter-spacing:-.03em;margin:0 0 1rem}
+.lead{font-size:1.2rem;max-width:36rem;margin:0 0 1.5rem}
+.status{display:inline-block;border:1px solid var(--line);background:var(--surface);padding:.35rem .8rem;border-radius:2rem;font-size:.95rem;margin-bottom:1.5rem}
+.links{display:flex;flex-wrap:wrap;gap:.6rem}
+.links a{border:1px solid var(--ink);color:var(--ink);padding:.5rem 1rem;border-radius:.4rem;text-decoration:none;font-weight:500}
+.links a.main{background:var(--ink);color:var(--bg)}
+.links a:hover{border-color:var(--accent)}
+section{padding:2.5rem 0;border-top:1px solid var(--line)}
+h2{font:700 1.6rem/1.2 var(--head);letter-spacing:-.01em;margin:0 0 1.25rem}
+h3{font:600 1.2rem/1.3 var(--head);margin:0}
+.meta{color:var(--muted);font-size:.95rem;margin:.15rem 0 .6rem}
+ul{padding-left:1.2rem;margin:.5rem 0}
+li{margin:.3rem 0}
+.item{margin-bottom:2rem}
+.item:last-child{margin-bottom:0}
+.tags{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.7rem;padding:0;list-style:none}
+.tags li{margin:0;font-size:.85rem;border:1px solid var(--line);background:var(--surface);padding:.1rem .6rem;border-radius:.3rem}
+.rating{background:var(--surface);border:1px solid var(--line);border-radius:.6rem;padding:1.25rem 1.25rem 1.1rem;margin-bottom:1.5rem}
+.rating .nums{display:flex;gap:2rem;flex-wrap:wrap;margin-bottom:1.6rem}
+.rating .n{font:700 2.4rem/1 var(--head)}
+.rating .l{font-size:.9rem;color:var(--muted)}
+.scale{position:relative;height:.9rem;border-radius:1rem;display:flex;overflow:visible}
+.scale span{display:block;height:100%}
+.scale span:first-child{border-radius:1rem 0 0 1rem}
+.scale span:last-child{border-radius:0 1rem 1rem 0}
+.pin{position:absolute;top:-.3rem;width:3px;height:1.5rem;background:var(--ink);border-radius:2px}
+.pin b{position:absolute;top:1.65rem;transform:translateX(-50%);font-size:.8rem;font-weight:600;white-space:nowrap;left:1px}
+.bounds{display:flex;justify-content:space-between;font-size:.78rem;color:var(--muted);margin-top:2.1rem}
+dl{display:grid;grid-template-columns:8.5rem 1fr;gap:.5rem 1rem;margin:0}
+dt{font-weight:600}
+dd{margin:0}
+footer{padding:2rem 0 4rem;color:var(--muted);font-size:.95rem;border-top:1px solid var(--line)}
+@media (max-width:34rem){dl{grid-template-columns:1fr;gap:.1rem}dd{margin-bottom:.7rem}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <p class="status">Open to a 6-month PFE internship from February 2027</p>
+  <h1>Abdelaziz Snoussi</h1>
+  <p class="lead">Final-year computer science engineering student at ENSI. I build backend and full-stack applications and add AI to them: NLP, OCR and RAG.</p>
+  <div class="links">
+    <a class="main" href="mailto:abdelaziz.snoussi@ensi-uma.tn">Email me</a>
+    <a href="https://github.com/YOUR-GITHUB-USERNAME">GitHub</a>
+    <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-ID">LinkedIn</a>
+    <a href="CV_Abdelaziz_Snoussi_EN.pdf">Download CV</a>
+  </div>
+</header>
+
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="item">
+    <h3>Sensitive-data masking API</h3>
+    <p class="meta">Amsys Consulting, summer 2026. Internship project, built solo</p>
+    <p>An API that secures documents shared with external partners. It finds sensitive data with NLP, then masks it before the document leaves the company. I designed the API and the document-processing pipeline, and reviewed the state of the art in detection, including Microsoft Presidio.</p>
+    <ul class="tags"><li>Python</li><li>FastAPI</li><li>NLP</li></ul>
+  </div>
+
+  <div class="item">
+    <h3>ARDHI, agricultural decision support</h3>
+    <p class="meta">Academic project, team of 4</p>
+    <p>An app that simulates plant growth under given environmental conditions and tells farmers what to plant and how to care for it, based on their location or a report they submit.</p>
+    <ul>
+      <li>My part: extracting information from submitted documents with OCR (Tesseract, with Llama as a fallback).</li>
+      <li>My part: a RAG chatbot on the Llama API that uses session context and database answers, and stays within scientific constraints on what it may answer.</li>
+    </ul>
+    <ul class="tags"><li>FastAPI</li><li>Flutter</li><li>Tesseract</li><li>Llama</li><li>RAG</li></ul>
+  </div>
+
+  <div class="item">
+    <h3>Company canteen ordering website</h3>
+    <p class="meta">Talan Tunisie, July–August 2025. Internship project, built solo in two months</p>
+    <p>The chef lists the available dishes and employees place their orders. Full-stack application with APIs tested in Postman.</p>
+    <ul class="tags"><li>Spring Boot</li><li>Angular</li><li>PostgreSQL</li></ul>
+  </div>
+
+  <div class="item">
+    <h3>Bus timetable web application</h3>
+    <p class="meta">Academic project</p>
+    <p>A web application for consulting bus schedules.</p>
+    <ul class="tags"><li>PHP</li><li>MySQL</li><li>JavaScript</li></ul>
+  </div>
+</section>
+
+<section id="competitive">
+  <h2>Competitive programming</h2>
+  <div class="rating" role="img" aria-label="Codeforces rating: currently 1560, peak 1733, Expert">
+    <div class="nums">
+      <div><div class="n">1560</div><div class="l">Codeforces, current</div></div>
+      <div><div class="n">1733</div><div class="l">Peak, Expert rank</div></div>
+    </div>
+    <div class="scale" aria-hidden="true">
+      <span style="width:22.2%;background:var(--b1)"></span>
+      <span style="width:22.2%;background:var(--b2)"></span>
+      <span style="width:22.2%;background:var(--b3)"></span>
+      <span style="width:33.4%;background:var(--b4)"></span>
+      <i class="pin" style="left:62.2%"><b>Now</b></i>
+      <i class="pin" style="left:81.4%"><b>Peak</b></i>
+    </div>
+    <div class="bounds" aria-hidden="true"><span>1000</span><span>1200</span><span>1400</span><span>1600</span><span>1900</span></div>
+  </div>
+  <ul>
+    <li>Winner, ENSI Programming Challenge (EPC) 2025</li>
+    <li>Winner, ISAMM Beginners Contest 2025</li>
+    <li>11th place, TCPC 2026</li>
+    <li>Problem setter for a programming contest organized by ENSI</li>
+  </ul>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <dl>
+    <dt>AI and data</dt><dd>NLP, OCR (Tesseract), RAG, LLMs (Llama API)</dd>
+    <dt>Backend</dt><dd>Python, FastAPI, Java, Spring Boot, REST APIs</dd>
+    <dt>Frontend</dt><dd>Angular, Flutter, JavaScript, HTML/CSS</dd>
+    <dt>Databases</dt><dd>PostgreSQL, MySQL, SQL</dd>
+    <dt>Languages</dt><dd>Python, Java, C++, C, PHP</dd>
+    <dt>Tools</dt><dd>Git, GitHub, Linux, Postman</dd>
+    <dt>Spoken</dt><dd>Arabic (native), English (advanced), French (B1–B2)</dd>
+  </dl>
+</section>
+
+<section id="education">
+  <h2>Education</h2>
+  <div class="item">
+    <h3>National Engineering Degree in Computer Science</h3>
+    <p class="meta">National School of Computer Science (ENSI), Manouba. Expected 2027</p>
+  </div>
+  <div class="item">
+    <h3>Preparatory Cycle, Mathematics–Physics</h3>
+    <p class="meta">IPEIEM, El Manar, Tunis. 2022–2024</p>
+  </div>
+</section>
+
+<footer>
+  <p>Based in Tunis, Tunisia. The best way to reach me is <a href="mailto:abdelaziz.snoussi@ensi-uma.tn">abdelaziz.snoussi@ensi-uma.tn</a>.</p>
+</footer>
+
+</div>
+</body>
+</html>
